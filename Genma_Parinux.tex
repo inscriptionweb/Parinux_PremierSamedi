@@ -1,0 +1,265 @@
+\documentclass{beamer}
+\mode<presentation> {
+\usepackage{color}
+\definecolor{bottomcolour}{rgb}{0.21,0.11,0.21}
+\definecolor{middlecolour}{rgb}{0.21,0.11,0.21}
+\setbeamercolor{structure}{fg=white}
+\setbeamertemplate{frametitle}[default]%[center]
+\setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamertemplate{background canvas}[vertical shading]
+[bottom=bottomcolour, middle=middlecolour, top=black]
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!50!red!50!blue!100!green}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!5!white!10!bg,fg=white}
+\setbeamertemplate{navigation symbols}{}
+}
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{geometry}     
+\usepackage[francais]{babel} 
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\justifying
+\input{cc_beamer}
+\title[]{Premier samedi \\ Vie privée, donnée personnelles et Internet} 
+\author{Genma - Café vie privée}
+\begin{document}
+%% Titlepage
+\begin{frame}
+	\titlepage
+	\vfill
+	\begin{center}
+		\CcGroupByNcSa{0.83}{0.95ex}\\[2.5ex]
+		{\tiny\CcNote{\CcLongnameByNcSa}}
+		\vspace*{-2.5ex}
+	\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{\includegraphics[scale=0.4]{./images/Genma.jpg} \ \ \  A propos de moi  }
+\begin{columns}[c] 
+
+\column{.55\textwidth} 
+\textbf{Où me trouver sur Internet?}
+\begin{itemize}
+\item Le Blog de Genma : http://genma.free.fr
+\item Twitter : http://twitter.com/genma
+\end{itemize}
+\textbf{Mes centres d'intérêts?}
+\\ Plein de choses dont:
+\begin{itemize}
+\item Organiser des Cafés vie privée
+\end{itemize}
+\column{.5\textwidth} 
+\includegraphics[width=5cm,height=5cm]{./images/blog.png} 
+\end{columns}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Remerciements}
+Parinux et tous les bénévoles du Premier-samedi. 
+\\~\\
+Ainsi qu'à vous ici présents ;-)
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{De quoi allons-nous parler?}
+Est-il possible d'avoir une vie privée sur Internet?
+Qu'en est-il de nos données personnelles? On me parle d'espionnage, c'est quoi? 
+Découvrons tout ça ensemble, ayez une réponse à toutes ces questions, de façon simple et accessible.
+\end{frame}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Internet, principe de fonctionnement}
+\\~\\ \includegraphics[scale=0.4]{./images/cloud.png}
+\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Un réseau de réseau}
+\begin{itemize}
+\item Internet c'est un réseau de réseau d'ordinateurs connectés entre eux.
+\item Il y a les serveurs, des gros ordinateurs, sur lesquels il y a des sites Internet.
+\item 
+\end{itemize}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Le Cloud, qu'est ce que c'est?}
+\begin{block}{Définition}
+Le cloud, c'est l'ordinateur des autres.
+\end{block}
+\begin{center}
+\includegraphics[scale=0.4]{./images/cloud.png}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Quels sont les problèmes?}
+\\~\\ \includegraphics[scale=0.4]{./images/cloud.png}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Les GAFAM}
+GAFAM : Google, Apple, Facebook, Amazon, Microsoft
+\begin{itemize}
+\item Concentration des acteurs d’Internet autour de sillos;
+\item Une centralisation nuisible (frein à l'innovation);
+\item  Les utilisateurs de ces services derniers ne contrôlent plus leur vie numérique.
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Toutes ces informations \\ que l'on donne... }
+\Huge{Volontairement...}
+\Huge{ou pas}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rien qu'avec les services Google}
+
+\begin{itemize}
+\justifying{
+\item Google Search
+\item GMail 
+\item Google Analytics 
+\item Google Maps 
+\item Smartphone Android 
+\item Google Calendar 
+\item Google Wallet 
+\item Google Docs et Drive 
+\item Google Chrome, navigateur 
+\item Google Photos 
+\item Youtube 
+\item ...
+}
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Le tracking publicitaire}
+\begin{block}{Le pistage sur Internet}
+\begin{itemize}
+\justifying{
+\item Le pistage est un terme qui comprend des méthodes aussi nombreuses et variées que les sites web, les annonceurs et d'autres utilisent pour connaître vos habitudes de navigation sur le Web. 
+\item  Cela comprend des informations sur les sites que vous visitez, les choses que vous aimez, n'aimez pas et achetez. 
+\item Ils utilisent souvent ces données pour afficher des pubs, des produits ou services spécialement ciblés pour vous. 
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Les réseaux sociaux}
+\begin{block}{Les données que l'on donne}
+\begin{itemize}
+\item En remplissant sa fiche Facebook
+\item En commentant, en cliquant sur J'aime...
+\end{itemize}
+\end{block}
+
+\begin{block}{Les données qui sont prises à notre insu}
+\justifying{
+Chaque bouton de partage sur les réseaux sociaux (J'aime etc.) informe le site associé que l'on a consulté tel ou tel site.
+Les sites associés ont donc une copie de notre historique de consultation de sites Internets (et ce même en mode Navigation privée).
+}
+\end{block}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{L'espionnage}
+\begin{itemize}
+\item Snowden et ses révélations (NSA)
+\item 
+\item 
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Sur Internet, si c'est gratuit, c'est vous le produit }
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Quelles sont les solutions?}
+\\~\\ \includegraphics[scale=0.4]{./images/cloud.png}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Le logiciel libre (avec Parinux)}
+\begin{itemize}
+\item 
+\item 
+\item 
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Les extensions pour Firefox}
+\begin{itemize}
+\item 
+\item 
+\item 
+\end{itemize}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Dégooglisons par Framasoft}
+\begin{itemize}
+\item 
+\item 
+\item 
+\end{itemize}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{SIRCUS par Tristan Nitot}
+"SIRCUS" (Systèmes Informatiques Redonnant le Contrôle aux UtilisateurS)
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Les cafés vie privée}
+\begin{center}
+\includegraphics[scale=0.4]{./images/LogoCafeViePrivee.jpg}
+\\ \url{https://café-vie-privée.fr/}
+\\ @chiffrofete \#cafevieprivee
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{center}
+\Huge{Questions et discussion}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\end{document}
